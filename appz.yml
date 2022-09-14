@@ -1,7 +1,7 @@
 app:
     name: HelloNode
     code: HelloNode
-    notify: svengathattil@ecloudcontrol.com
+    notify: mmushraf@ecloudcontrol.com
 
 build:
     version: 0.1
@@ -12,7 +12,7 @@ build:
 
 
 deploy:
-    context: sidharth-v/DEV
+    context: mushraf6461/DEV
     replicas: 1
     port:
     - 8080
@@ -23,5 +23,5 @@ properties:
     page_title: "React-bootstrap + nodejs-express App"
     ##site_url: "https://hellonodejs.appzclient.com/"
     BUILD_ON_STARTUP: 0
-    revision: 57
+    revision: 58
     page_color: Blue
