@@ -13,7 +13,7 @@ build:
 
 deploy:
     context: mushraf6461/DEV
-    replicas: 1
+    replicas: 3
     port:
     - 8080
     - 80
@@ -23,5 +23,5 @@ properties:
     page_title: "React-bootstrap + nodejs-express App"
     ##site_url: "https://hellonodejs.appzclient.com/"
     BUILD_ON_STARTUP: 0
-    revision: 60
+    revision: 61
     page_color: Blue
